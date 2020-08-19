@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import ArticleList192184Navigator from '../features/ArticleList192184/navigator';
 import UserProfile392182Navigator from '../features/UserProfile392182/navigator';
 import Camera492181Navigator from '../features/Camera492181/navigator';
 import Maps592180Navigator from '../features/Maps592180/navigator';
@@ -23,6 +24,7 @@ import BlankScreen092170Navigator from '../features/BlankScreen092170/navigator'
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+ArticleList192184: { screen: ArticleList192184Navigator },
 UserProfile392182: { screen: UserProfile392182Navigator },
 Camera492181: { screen: Camera492181Navigator },
 Maps592180: { screen: Maps592180Navigator },
